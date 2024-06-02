@@ -4,7 +4,8 @@ function App() {
   return (
     <html lang="en">
       <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        {/* <meta http-equiv="X-UA-Compatible" content="IE=edge" /> */}
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Kocomist</title>
         <link rel="stylesheet" href="style.css" />
@@ -54,7 +55,7 @@ function App() {
             <div className="ztxt">
               <h3>NO ROUGH DAYS</h3>
               <p>
-                Just the best shave with our NEW SheaMoisture Men's Shave system
+                Just the best shave with our NEW SheaMoisture Mens Shave system
                 designed to give you a smooth face and flawless skin.
               </p>
               <button className="zbtn">Click me</button>

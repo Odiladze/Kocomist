@@ -29,7 +29,6 @@ const About = () => {
     <div className="about bg-gradient-to-tr from-white to-[white] dark:from-[#222222] dark:to-slate-900   content-center">
       <NavbarEng />
       <HamburgerMenu />
-
       <section className="gifsection">
         <div>
           <img
@@ -48,29 +47,23 @@ const About = () => {
           </Link>
         </div>
       </section>
-
       <section className="adv">
         <p>
           PARABEN FREE - SULFATE FREE - PHTHALATE FREE - FREE OF MINERAL OILS -
           FREE OF GMOS - CRUELTY-FREE - CARBON NEUTRAL{" "}
-          </p>
+        </p>
       </section>
-      
-      
-      
-       <Carouselle /> {/* Carousel component */}
-       <div className="flex justify-center items-center ">
-  <button className="rounded-none bg-[#333333] mt-7 mb-7 py-6 w-44 text-white text-base">
-    <Link href="/about">See All</Link>{" "}
-  </button>
-</div>
+      <Carouselle /> {/* Carousel component */}
+      <div className="flex justify-center items-center ">
+        <button className="rounded-none bg-[#333333] mt-7 mb-7 py-6 w-44 text-white text-base">
+          <Link href="/about">See All</Link>{" "}
+        </button>
+      </div>
       <div className="message-box">
-      <p className="message-text">
-        Free Delivery Service While Ordering In Tbilisi, Right Now!
-      </p>
-      
-      
-    </div>
+        <p className="message-text">
+          Free Delivery Service While Ordering In Tbilisi, Right Now!
+        </p>
+      </div>
       <section className="z-layout">
         <div className="zgrid">
           <div className="div1">
@@ -90,18 +83,17 @@ const About = () => {
               to bring not only the product to the customer, but also the
               knowledge about the product and introduce high quality service.
             </p>
-           
           </div>
           <div className="ztxt ztxt2">
             <h3>Our Vision</h3>
             <p>
-            At the heart of every entrepreneurial endeavor lies a profound understanding:
-             that customers are not mere consumers, but rather discerning connoisseurs
-              seeking an experience that transcends the transactional. Their discernment,
-               preferences, and feedback are akin to the oracle's wisdom, guiding the 
-               evolution of a business towards higher planes of refinement.
+              At the heart of every entrepreneurial endeavor lies a profound
+              understanding: that customers are not mere consumers, but rather
+              discerning connoisseurs seeking an experience that transcends the
+              transactional. Their discernment, preferences, and feedback are
+              akin to the oracles wisdom, guiding the evolution of a business
+              towards higher planes of refinement.
             </p>
-            
           </div>
           <div className="div2">
             <img
@@ -113,11 +105,12 @@ const About = () => {
           <div className="ztxt  ztxthideforresp">
             <h3>Our Vision</h3>
             <p>
-            At the heart of every entrepreneurial endeavor lies a profound understanding:
-             that customers are not mere consumers, but rather discerning connoisseurs
-              seeking an experience that transcends the transactional. Their discernment,
-               preferences, and feedback are akin to the oracle's wisdom, guiding the 
-               evolution of a business towards higher planes of refinement.
+              At the heart of every entrepreneurial endeavor lies a profound
+              understanding: that customers are not mere consumers, but rather
+              discerning connoisseurs seeking an experience that transcends the
+              transactional. Their discernment, preferences, and feedback are
+              akin to the oracles wisdom, guiding the evolution of a business
+              towards higher planes of refinement.
             </p>
             {/* <button className="zbtn">Click me</button> */}
           </div>
@@ -133,14 +126,9 @@ const About = () => {
           </a>
         </button>
       </section> */}
-
       <main className="main justify-center items-center  2xl:text-2xl flex flex-col">
         <section className=" shamp w-full ">
-          <div className=" paragraph -mt-4 relative z-0">
-         
-          </div>
-          
-          
+          <div className=" paragraph -mt-4 relative z-0"></div>
         </section>
       </main>
       <div className="">
@@ -148,8 +136,6 @@ const About = () => {
       </div>
     </div>
   );
-  
-  
 };
 
 export default About;
